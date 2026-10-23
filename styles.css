@@ -853,6 +853,19 @@ h2 em {
   color: rgba(248, 245, 236, 0.55);
   font-size: 9px;
 }
+.farm-link-purchase {
+  margin: 17px 0;
+}
+.farm-link-purchase .farm-link-button {
+  border-color: var(--green);
+  background: var(--green);
+  color: white;
+  text-decoration: none;
+}
+.farm-link-purchase .farm-link-button:hover {
+  border-color: var(--green-deep);
+  background: var(--green-deep);
+}
 
 @media (max-width: 980px) {
   .section-shell,
