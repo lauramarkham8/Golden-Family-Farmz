@@ -21,10 +21,12 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 90px;
 }
+
 body {
   margin: 0;
   background: var(--cream);
@@ -32,21 +34,25 @@ body {
   font: 400 16px/1.7 var(--sans);
   -webkit-font-smoothing: antialiased;
 }
+
 img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 a {
   color: inherit;
 }
+
 button,
 input,
 select,
 textarea {
   font: inherit;
 }
+
 ::selection {
   color: var(--green);
   background: var(--gold-light);
@@ -61,13 +67,16 @@ textarea {
   background: white;
   color: var(--green);
 }
+
 .skip-link:focus {
   top: 12px;
 }
+
 .section-shell {
   width: min(var(--content), calc(100% - 64px));
   margin-inline: auto;
 }
+
 .site-header {
   position: sticky;
   top: 0;
@@ -76,6 +85,7 @@ textarea {
   background: rgba(248, 245, 236, 0.94);
   backdrop-filter: blur(16px);
 }
+
 .nav-wrap {
   width: min(1320px, calc(100% - 64px));
   height: 82px;
@@ -85,6 +95,7 @@ textarea {
   justify-content: space-between;
   gap: 28px;
 }
+
 .brand {
   display: inline-flex;
   align-items: center;
@@ -92,6 +103,7 @@ textarea {
   text-decoration: none;
   color: var(--green);
 }
+
 .brand-mark {
   display: grid;
   place-items: center;
@@ -101,11 +113,14 @@ textarea {
   border-radius: 50%;
   color: var(--gold);
   font: 500 26px/1 var(--serif);
+  object-fit: cover;
 }
+
 .brand-name {
   font: 500 20px/1.15 var(--serif);
   letter-spacing: -0.02em;
 }
+
 .brand-name small {
   display: block;
   padding-top: 5px;
@@ -114,11 +129,13 @@ textarea {
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
+
 .desktop-nav {
   display: flex;
   align-items: center;
   gap: clamp(14px, 2vw, 30px);
 }
+
 .desktop-nav a,
 .mobile-nav a {
   color: #46564a;
@@ -127,10 +144,12 @@ textarea {
   font-weight: 700;
   transition: color 0.2s ease;
 }
+
 .desktop-nav a:hover,
 .mobile-nav a:hover {
   color: var(--gold);
 }
+
 .button {
   min-height: 48px;
   display: inline-flex;
@@ -152,34 +171,41 @@ textarea {
     border-color 0.2s ease;
   cursor: pointer;
 }
+
 .button:hover {
   transform: translateY(-2px);
   border-color: #c39228;
   background: #c39228;
 }
+
 .button-small {
   min-height: 42px;
   padding: 10px 16px;
   font-size: 11px;
   white-space: nowrap;
 }
+
 .button-outline {
   border-color: var(--green);
   background: transparent;
   color: var(--green);
 }
+
 .button-outline:hover {
   background: rgba(41, 71, 53, 0.07);
 }
+
 .button-light {
   border-color: var(--cream);
   background: var(--cream);
   color: var(--green);
 }
+
 .button-light:hover {
   border-color: white;
   background: white;
 }
+
 .mobile-menu {
   display: none;
 }
@@ -192,10 +218,12 @@ textarea {
   align-items: center;
   gap: clamp(42px, 7vw, 100px);
 }
+
 .hero-copy {
   position: relative;
   z-index: 1;
 }
+
 .eyebrow {
   display: flex;
   align-items: center;
@@ -208,6 +236,7 @@ textarea {
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
+
 .eyebrow-dot {
   width: 7px;
   height: 7px;
