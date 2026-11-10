@@ -642,6 +642,7 @@ h2 em {
   font-size: 13px;
 }
 .farm-note-image {
+  position: relative;
   min-height: 445px;
 }
 .farm-note-image img {
