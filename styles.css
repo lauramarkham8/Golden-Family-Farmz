@@ -224,7 +224,7 @@ textarea {
 
 .hero {
   min-height: 670px;
-  padding-block: 78px 92px;
+  padding-block: 58px 68px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -391,7 +391,7 @@ h2 em {
 }
 
 .stewardship {
-  padding-block: 104px 112px;
+  padding-block: 77px 83px;
 }
 
 .section-heading h2,
@@ -454,7 +454,7 @@ h2 em {
 }
 
 .products {
-  padding-block: 88px 108px;
+  padding-block: 65px 80px;
 }
 .section-heading-row {
   margin-bottom: 38px;
@@ -549,7 +549,7 @@ h2 em {
 }
 
 .story {
-  padding-block: 80px 108px;
+  padding-block: 60px 80px;
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
   align-items: center;
@@ -650,7 +650,7 @@ h2 em {
 }
 
 .community {
-  padding-block: 108px;
+  padding-block: 78px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -719,7 +719,7 @@ h2 em {
 }
 
 .contact {
-  padding-block: 90px 108px;
+  padding-block: 66px 80px;
   border-top: 1px solid var(--line);
 }
 .contact .section-heading {
@@ -851,7 +851,7 @@ h2 em {
 }
 
 .instagram {
-  padding-block: 70px 90px;
+  padding-block: 51px 66px;
 }
 .instagram-heading {
   margin-bottom: 30px;
@@ -1067,7 +1067,7 @@ h2 em {
   .hero {
     min-height: auto;
     gap: 36px;
-    padding-block: 65px 75px;
+    padding-block: 48px 56px;
   }
   .hero-visual {
     min-height: 430px;
@@ -1174,7 +1174,7 @@ h2 em {
   .hero {
     grid-template-columns: 1fr;
     gap: 35px;
-    padding-block: 54px 68px;
+    padding-block: 46px 58px;
   }
   h1 {
     font-size: clamp(49px, 13vw, 68px);
@@ -1240,7 +1240,7 @@ h2 em {
   .products,
   .community,
   .contact {
-    padding-block: 68px;
+    padding-block: 51px;
   }
   .section-heading h2,
   .story h2,
@@ -1305,7 +1305,7 @@ h2 em {
   .story {
     grid-template-columns: 1fr;
     gap: 35px;
-    padding-block: 56px 70px;
+    padding-block: 41px 51px;
   }
   .story-image {
     height: 390px;
@@ -1358,7 +1358,7 @@ h2 em {
     padding: 21px;
   }
   .instagram {
-    padding-block: 55px 68px;
+    padding-block: 41px 49px;
   }
   .instagram-heading {
     align-items: flex-start;
